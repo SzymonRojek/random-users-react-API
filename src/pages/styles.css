@@ -1,0 +1,98 @@
+/* homepage */
+
+.homepage-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.header-text {
+  font-size: 20px;
+}
+
+.users-img-container {
+  max-width: 500px;
+  margin: 60px auto 0 auto;
+  padding: 20px;
+}
+
+.users-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.footer-homepage {
+  margin-top: 30px;
+  padding: 40px;
+}
+
+/* user details */
+
+.details-heading {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.details-container {
+  text-align: left;
+  padding: 0 20px 70px 20px;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.address-paragraph {
+  font-size: 18px;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+.details-paragraph {
+  font-size: 18px;
+  padding: 10px 0 5px 0;
+  margin: 0;
+}
+
+.details-paragraph + li {
+  padding-left: 8px;
+  list-style: none;
+}
+
+.address-list {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.location-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 0 23px 0 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.location-icon {
+  height: 30px;
+  border: none;
+  background-color: #fff;
+}
+
+.location-button {
+  border: none;
+  background-color: transparent;
+}
+
+/* map */
+
+.leaflet {
+  width: 90%;
+  max-width: 500px;
+  height: 40vh;
+  margin: 30px auto;
+}
