@@ -1,0 +1,33 @@
+.loader-wrapper {
+  min-height: 300px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.loading-circle {
+  width: 40px;
+  height: 40px;
+  margin: 50px auto;
+  border: solid 4px white;
+  border-top: solid 5px grey;
+  border-radius: 50%;
+  animation: rotate 1.5s linear infinite;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 25px;
+  color: color;
+  line-height: 1.5;
+}
+
+@keyframes rotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
