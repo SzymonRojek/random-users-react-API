@@ -1,0 +1,38 @@
+.upper-container {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 30%;
+  width: 100%;
+  background-color: rgb(150, 146, 146);
+  z-index: 1;
+}
+
+.lower-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-wrapper {
+  margin-top: 50px;
+  padding: 20px;
+  z-index: 20;
+}
+
+.user-avatar {
+  margin-top: -40px;
+  border-radius: 50%;
+}
+
+.user-name {
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.country-paragraph {
+  padding-bottom: 40px;
+}
