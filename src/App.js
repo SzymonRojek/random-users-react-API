@@ -1,11 +1,18 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import "./styles.css";
-import Navigation from "./components/Navigation";
+import { Navigation } from "./components/Navigation";
+import HomePage from "./pages/HomePage";
+import UsersPage from "./pages/UsersPage";
 
-const App = () => (
+export const App = () => (
   <BrowserRouter>
     <Navigation />
+
+    <Switch>
+      <Route exact path="/users" component={UsersPage} />
+
+      <Route path="/" component={HomePage} />
+    </Switch>
   </BrowserRouter>
 );
 
