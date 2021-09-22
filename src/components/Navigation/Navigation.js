@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 import "./styles.css";
 import Menu from "./Menu";
 
-const Header = () => {
+const Navigation = () => {
   const location = useLocation();
   const { pathname } = location;
   const splitLocation = pathname.split("/");
@@ -36,4 +36,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navigation;
