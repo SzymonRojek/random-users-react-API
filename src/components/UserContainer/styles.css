@@ -1,0 +1,34 @@
+.card-container {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.user-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  border-radius: 23px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288);
+  background-color: rgb(5, 130, 155);
+  overflow: hidden;
+}
+
+.arrow-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 23px 0 23px 0;
+}
+
+.arrow-icon {
+  height: 30px;
+}
